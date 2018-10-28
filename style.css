@@ -1,0 +1,124 @@
+body{
+	background: white;
+}
+
+.addSection{
+	display: inline-block;
+	width: 14%;
+	text-align: center;	
+}
+
+.addSection01{
+	background: red;
+	display: inline-block;
+	width: 14%;
+	text-align:center; 
+		
+}
+
+.yuxari{
+	display: inline-block;
+}
+
+.yan{
+	display: inline-block;
+	width: 87%;
+	text-align:right;
+}
+.xett{
+	width: 60%;
+	display: inline-block;
+	text-align:right;
+	color: #757272e8;
+}
+
+
+
+#Orta{
+	display: block;
+}
+.wekil{
+	background: lightgrey;
+	width: 60%;
+	height: 490px;
+	display: inline-block;
+	text-align:center;
+	float: left;
+}
+
+.basliq{
+	display: inline-block;
+	width: 40%;
+}
+
+.balaca{
+	border: 3px solid lightgrey; 
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+
+.altsol{
+	display: inline-block;
+	text-align: left;
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+
+
+.altorta{
+	display: inline-block;
+	text-align: center;
+	border: .5px solid lightgrey;
+	width: 30%;
+	height: 100px;
+
+}
+
+.altsag{
+	background: lightgrey;
+	height: 100px;
+	display: inline-block;
+	width: 30%;
+	text-align: center ;
+	float: right;
+}	
+.Son{
+	display: inline-block;
+	text-align: left;
+	float: left;
+
+	width: 30%;
+}
+.altorta01{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+
+
+}
+
+.Sonluq01{
+	display: inline-block;
+	text-align: right;
+	float: right;
+	width: 15%;
+
+
+}
+
+.Sonluq02{
+	display: inline-block;
+	float: right;
+	text-align: right;
+	width: 20%;
+}
+
+.axri{
+	display: inline-block;
+	float: right;
+}
+
+
