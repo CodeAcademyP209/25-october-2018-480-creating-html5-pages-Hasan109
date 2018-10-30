@@ -1,124 +1,90 @@
+.pullLeft{
+	float:left;
+}
+.pullRight{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+/* end of common styles*/
 body{
-	background: white;
+	margin:0px;
+	background-color:green;
+	background-image: url(../images/body-bg.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat:repeat;
+}
+#wrapper{
+	width:1200px;
+
+	margin:0px auto;
+	margin-top:100px;
+}
+/* end of wrapper section */
+#header{
+	width:100%;
+/*	height:100px;*/
+	background-color:rgba(255,255,255,1);
+	padding:35px 160px;
+	box-sizing: border-box;
+/*	margin-top:50px;
+	margin-left:100px;*/
 }
 
-.addSection{
+
+.sliderLeft{
+	width:900px;
+	height:360px;	
+	background:url(../images/s.jpg) no-repeat;
+	background-size:cover;
+
+}
+.sliderLeftInner{
+	padding:90px;
+	box-sizing: border-box;
+	width:100%;
+	height:100%;
+	background-image: linear-gradient(to right,rgba(160, 55, 236,0.9), rgba(96, 167, 211,0.7));
+}
+.sliderLeftInner h1,.sliderLeftInner p,.sliderLeftInner button{
+	color:white;
+}
+.sliderLeftInner h1{
+	text-transform: uppercase;
+}
+.sliderLeftInner button{
+	background:none;
+	padding:10px 20px;
+	border:1px solid white;
+	border-radius:20px;
+}
+.sliderRight{
+	width:300px;
+	height:360px;
+
+}
+.sliderRight div img{
+	width:100%;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.storysol{
+	width:900px;
+	height:360px;	
+	background:linear-gradient(to right,rgba(160, 55, 236,0.9), rgba(96, 167, 211,0.7));
 	display: inline-block;
-	width: 14%;
-	text-align: center;	
-}
-
-.addSection01{
-	background: red;
-	display: inline-block;
-	width: 14%;
-	text-align:center; 
-		
-}
-
-.yuxari{
-	display: inline-block;
-}
-
-.yan{
-	display: inline-block;
-	width: 87%;
-	text-align:right;
-}
-.xett{
-	width: 60%;
-	display: inline-block;
-	text-align:right;
-	color: #757272e8;
-}
-
-
-
-#Orta{
-	display: block;
-}
-.wekil{
-	background: lightgrey;
-	width: 60%;
-	height: 490px;
-	display: inline-block;
-	text-align:center;
 	float: left;
-}
-
-.basliq{
-	display: inline-block;
-	width: 40%;
-}
-
-.balaca{
-	border: 3px solid lightgrey; 
-	width: 100px;
-	height: 100px;
-	display: inline-block;
-}
-
-
-.altsol{
-	display: inline-block;
-	text-align: left;
-	width: 30%;
-	height: 200px;
-	float: left;
-}
-
-
-.altorta{
-	display: inline-block;
-	text-align: center;
-	border: .5px solid lightgrey;
-	width: 30%;
-	height: 100px;
+	clear: both;
+	padding: 50px;
 
 }
 
-.altsag{
-	background: lightgrey;
-	height: 100px;
-	display: inline-block;
-	width: 30%;
-	text-align: center ;
-	float: right;
-}	
-.Son{
-	display: inline-block;
-	text-align: left;
-	float: left;
-
-	width: 30%;
-}
-.altorta01{
-	display: inline-block;
-	width: 30%;
-	text-align: center;
 
 
-}
+/*end of main section*/
 
-.Sonluq01{
-	display: inline-block;
-	text-align: right;
-	float: right;
-	width: 15%;
-
-
-}
-
-.Sonluq02{
-	display: inline-block;
-	float: right;
-	text-align: right;
-	width: 20%;
-}
-
-.axri{
-	display: inline-block;
-	float: right;
-}
-
+/*end of footer section*/
 
